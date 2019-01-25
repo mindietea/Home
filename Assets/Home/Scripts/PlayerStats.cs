@@ -7,6 +7,11 @@ public class PlayerStats : MonoBehaviour
 
     public int logs, rocks, stars;
 
+    public bool CanAfford(int logsCost, int rocksCost, int starsCost)
+    {
+        return (logs >= logsCost) && (rocks >= rocksCost) && (stars >= starsCost);
+    }
+
     void Awake()
     {
         DontDestroyOnLoad(gameObject);
