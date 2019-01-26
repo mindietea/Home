@@ -51,6 +51,9 @@ TagManager:
   - name: Monsters
     uniqueID: 553994451
     locked: 0
+  - name: Furniture_Back
+    uniqueID: 2373875129
+    locked: 0
   - name: Furniture
     uniqueID: 2086781159
     locked: 0
@@ -59,7 +62,4 @@ TagManager:
     locked: 0
   - name: UI
     uniqueID: 445775017
-    locked: 0
-  - name: Furniture_Back
-    uniqueID: 2373875129
     locked: 0
