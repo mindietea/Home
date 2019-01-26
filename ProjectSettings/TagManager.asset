@@ -45,6 +45,12 @@ TagManager:
   - name: Background
     uniqueID: 3380786151
     locked: 0
+  - name: Player
+    uniqueID: 1061521577
+    locked: 0
+  - name: Monsters
+    uniqueID: 553994451
+    locked: 0
   - name: Furniture
     uniqueID: 2086781159
     locked: 0
