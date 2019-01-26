@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Home.unity
     guid: 82b883028e50ca64cb08c237b537a59a
   - enabled: 1
-    path: Assets/Scenes/MindyTest.unity
+    path: Assets/Scenes/Explore.unity
     guid: 35cb820e364d63743b9280292e968acb
   - enabled: 1
     path: Assets/Scenes/BattleScene.unity
