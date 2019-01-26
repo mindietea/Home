@@ -19,8 +19,8 @@ public class Movement : MonoBehaviour // Normal Movements Variables
         if (Input.GetKey(KeyCode.W)) {
             transform.Translate (Vector2.up * speed);
             anim.SetBool("Walking", true);
-            //anim.SetFloat("SpeedX" = 0);
-            //anim.SetFloat("SpeedY" = 1);
+            anim.SetFloat("SpeedX", 0);
+            anim.SetFloat("SpeedY", 1);
             //transform.position += character1.up * speed;
 
             //Rigidbody2D.Addforce(character1.up);
@@ -30,8 +30,8 @@ public class Movement : MonoBehaviour // Normal Movements Variables
         if (Input.GetKey(KeyCode.A)) {
             transform.Translate (Vector3.left * speed);
             anim.SetBool("Walking", true);
-            //anim.SetFloat("SpeedX" = -1);
-            //anim.SetFloat("SpeedY" = 0);
+            anim.SetFloat("SpeedX", -1);
+            anim.SetFloat("SpeedY", 0);
             //transform.position +=character1.left * speed;
 
             //Rigidbody2D.Addforce(character1.left);
@@ -41,8 +41,8 @@ public class Movement : MonoBehaviour // Normal Movements Variables
         if (Input.GetKey(KeyCode.S)) {
             transform.Translate (Vector2.down * speed);
             anim.SetBool("Walking", true);
-            //anim.SetFloat("SpeedX" = 0);
-            //anim.SetFloat("SpeedY" = -1);
+            anim.SetFloat("SpeedX", 0);
+            anim.SetFloat("SpeedY", -1);
             //transform.position +=character1.down * speed;
 
             //Rigidbody2D.Addforce(character1.down);
@@ -51,8 +51,8 @@ public class Movement : MonoBehaviour // Normal Movements Variables
         if (Input.GetKey(KeyCode.D)) {
             transform.Translate (Vector3.right * speed);
             anim.SetBool("Walking", true);
-            //anim.SetFloat("SpeedX" = 1);
-            //anim.SetFloat("SpeedY" = 0);
+            anim.SetFloat("SpeedX", 1);
+            anim.SetFloat("SpeedY", 0);
             //transform.position +=character1.right * speed;
 
             //Rigidbody2D.Addforce(character1.right);
