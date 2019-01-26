@@ -9,6 +9,7 @@ public class PlayerAttack : MonoBehaviour
 
     public Transform attackPos;
     public LayerMask whatIsEnemies;
+    
     public float attackRange;
     public int damage;
 
@@ -18,8 +19,10 @@ public class PlayerAttack : MonoBehaviour
         {
             if (Input.GetKey(KeyCode.Space))
             {
+               
                 Collider2D[] enemiesToDamage = Physics2D.OverlapCircleAll(attackPos.position, attackRange);
-                for(int i = 0; i < enemiesToDamage.Length; i++)
+           
+                for (int i = 0; i < enemiesToDamage.Length; i++)
                 {
                     enemiesToDamage[i].GetComponent<Enemy>().TakeDamage(damage);
                  }
