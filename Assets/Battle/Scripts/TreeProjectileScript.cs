@@ -11,7 +11,7 @@ public class TreeProjectileScript : MonoBehaviour
     public float maxDistance = 10.0f;
     public Vector2 direction = new Vector2(1.0f, 0.0f);
     public float speed = 2.0f;
-    public bool droppable = true;
+    public bool droppable = false;
     public bool dropped = false;
 
     private Vector3 startPos;
@@ -26,8 +26,10 @@ public class TreeProjectileScript : MonoBehaviour
     void FixedUpdate()
     {
 
+        // Reached max distance
         if(!dropped && GetDistanceTraveled() > maxDistance)
         {
+            Debug.Log("Reached max distance, droppable = " + droppable);
             // Drop or destroy
             if(droppable)
             {
@@ -39,6 +41,8 @@ public class TreeProjectileScript : MonoBehaviour
 
         } else if(!dropped)
         {
+            // Keep traveling
+            direction.Normalize();
             Vector3 direction3d = new Vector3((direction * speed).x, (direction * speed).y, 0);
             transform.position += direction3d;
         }

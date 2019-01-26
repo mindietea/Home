@@ -22,7 +22,7 @@ public class ItemScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(!bought && CanAfford())
+        if(!bought && CanAfford() && !furnitureDisplay.active)
         {
             gameObject.GetComponent<CanvasGroup>().alpha = 1.0f;
         } else
@@ -53,7 +53,7 @@ public class ItemScript : MonoBehaviour
 
     public void Buy()
     {
-        if(!bought && CanAfford())
+        if(!bought && CanAfford() && !furnitureDisplay.active)
         {
             GameObject.Find("PlayerStats").GetComponent<PlayerStats>().logs -= GetLogsCost();
             GameObject.Find("PlayerStats").GetComponent<PlayerStats>().rocks -= GetRocksCost();
