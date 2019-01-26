@@ -12,7 +12,7 @@ public class Movement : MonoBehaviour // Normal Movements Variables
         rb2d = GetComponent<Rigidbody2D>();
     }
     void FixedUpdate()
-    {
+    {/*
         if (Input.GetKey(KeyCode.W)) {
             transform.Translate (Character1.up * speed);       
             transform.position += character1.up * speed;
@@ -43,5 +43,6 @@ public class Movement : MonoBehaviour // Normal Movements Variables
             Rigidbody2D.Addforce(character1.right);
             Rigidbody2D.velocity = character1.down;
         }
+        */
     }
 }
