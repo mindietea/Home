@@ -7,6 +7,6 @@ public class ExploreButtonScript : MonoBehaviour
 {
     public void LoadExploreScene()
     {
-        SceneManager.LoadScene("MindyTest");
+        SceneManager.LoadScene("Explore");
     }
 }
