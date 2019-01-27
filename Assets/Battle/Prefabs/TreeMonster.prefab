@@ -8,32 +8,38 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 2807386820027217813}
+  - component: {fileID: 7839945924279637859}
   - component: {fileID: 2807386820027217818}
   - component: {fileID: 2807386820027217812}
   - component: {fileID: 1036368721}
   - component: {fileID: 4382601379267702055}
+  - component: {fileID: 1480306065231311380}
   m_Layer: 8
-  m_Name: Tree 1
+  m_Name: TreeMonster
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &2807386820027217813
-Transform:
+--- !u!224 &7839945924279637859
+RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2807386820027217819}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.8, y: -3.45, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -4.8, y: -3.45}
+  m_SizeDelta: {x: 2.34, y: 1.95}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!212 &2807386820027217818
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -142,3 +148,11 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.2904838, y: 1.95}
   m_EdgeRadius: 0
+--- !u!222 &1480306065231311380
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2807386820027217819}
+  m_CullTransparentMesh: 0
