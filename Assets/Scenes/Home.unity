@@ -112,6 +112,12 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &7140117 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6918314234476660571, guid: afdf8cfc72b10494cbb571927bb74d5e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307156235}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &11576312
 GameObject:
   m_ObjectHideFlags: 0
@@ -372,6 +378,11 @@ PrefabInstance:
       propertyPath: m_Text
       value: A small rack.
       objectReference: {fileID: 0}
+    - target: {fileID: 6641694474351957319, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
+        type: 3}
+      propertyPath: furnitureDisplay
+      value: 
+      objectReference: {fileID: 176230580}
     - target: {fileID: 6641694474351957318, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
         type: 3}
       propertyPath: m_Sprite
@@ -534,7 +545,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1879316685}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.12042951
+  m_Size: 0.060214784
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -578,6 +589,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 165602470}
   m_CullTransparentMesh: 0
+--- !u!1 &176230580 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3642073753716533075, guid: afdf8cfc72b10494cbb571927bb74d5e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307156235}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &205247575
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -698,7 +715,7 @@ PrefabInstance:
     - target: {fileID: 6641694474166932564, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
         type: 3}
       propertyPath: m_Text
-      value: Couch 2
+      value: Plush Couch
       objectReference: {fileID: 0}
     - target: {fileID: 6641694473984261557, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
         type: 3}
@@ -711,7 +728,7 @@ PrefabInstance:
       propertyPath: m_Text
       value: This is a fancier couch for you, a fancier person!
       objectReference: {fileID: 0}
-    - target: {fileID: 6641694473075593473, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
+    - target: {fileID: 6641694474314141068, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
         type: 3}
       propertyPath: m_Text
       value: 10
@@ -721,11 +738,16 @@ PrefabInstance:
       propertyPath: m_Text
       value: 10
       objectReference: {fileID: 0}
-    - target: {fileID: 6641694474314141068, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
+    - target: {fileID: 6641694473075593473, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
         type: 3}
       propertyPath: m_Text
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 6641694474351957319, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
+        type: 3}
+      propertyPath: furnitureDisplay
+      value: 
+      objectReference: {fileID: 1622030446}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 69a8ebba758049b4fa59eb58c3bd0c4d, type: 3}
 --- !u!1 &208246789
@@ -794,6 +816,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &227867354 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 60649726072908287, guid: afdf8cfc72b10494cbb571927bb74d5e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307156235}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &302327456 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3642073752765603111, guid: afdf8cfc72b10494cbb571927bb74d5e,
@@ -896,6 +924,12 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!1 &425541408 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3642073754045619151, guid: afdf8cfc72b10494cbb571927bb74d5e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307156235}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &441040974
 GameObject:
   m_ObjectHideFlags: 0
@@ -985,6 +1019,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_ShowMaskGraphic: 0
+--- !u!1 &453478245 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8857218433247763552, guid: afdf8cfc72b10494cbb571927bb74d5e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307156235}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &468863343 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2087457231335732150, guid: 4c87d768fd9dfdc48a6175cd9689ccaa,
@@ -1003,6 +1043,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e77f096885d2cad4ba0cd2a42f8e1985, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &484789366 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3224163602650578246, guid: afdf8cfc72b10494cbb571927bb74d5e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307156235}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &498824134
 GameObject:
   m_ObjectHideFlags: 0
@@ -1236,21 +1282,26 @@ PrefabInstance:
       propertyPath: m_Text
       value: A good nights sleep is just as important as anything else.
       objectReference: {fileID: 0}
-    - target: {fileID: 6641694473075593473, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
+    - target: {fileID: 6641694474314141068, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
         type: 3}
       propertyPath: m_Text
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6641694473687870295, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
         type: 3}
       propertyPath: m_Text
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 6641694474314141068, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
+    - target: {fileID: 6641694473075593473, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
         type: 3}
       propertyPath: m_Text
-      value: 6
+      value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 6641694474351957319, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
+        type: 3}
+      propertyPath: furnitureDisplay
+      value: 
+      objectReference: {fileID: 1312571868}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 69a8ebba758049b4fa59eb58c3bd0c4d, type: 3}
 --- !u!1001 &551095113
@@ -1387,16 +1438,21 @@ PrefabInstance:
       value: This bottle contains an amazing potion which can heal all wounds. Oh,
         it seemsto be expired...
       objectReference: {fileID: 0}
-    - target: {fileID: 6641694473075593473, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
-        type: 3}
-      propertyPath: m_Text
-      value: 4
-      objectReference: {fileID: 0}
     - target: {fileID: 6641694474314141068, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
         type: 3}
       propertyPath: m_Text
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6641694473075593473, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
+        type: 3}
+      propertyPath: m_Text
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6641694474351957319, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
+        type: 3}
+      propertyPath: furnitureDisplay
+      value: 
+      objectReference: {fileID: 1444039642}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 69a8ebba758049b4fa59eb58c3bd0c4d, type: 3}
 --- !u!1 &565216246
@@ -1410,6 +1466,8 @@ GameObject:
   - component: {fileID: 565216247}
   - component: {fileID: 565216249}
   - component: {fileID: 565216248}
+  - component: {fileID: 565216250}
+  - component: {fileID: 565216251}
   m_Layer: 5
   m_Name: CraftView
   m_TagString: Untagged
@@ -1476,6 +1534,30 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 565216246}
   m_CullTransparentMesh: 0
+--- !u!225 &565216250
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 565216246}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
+--- !u!114 &565216251
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 565216246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0117a1c2683cc84b8847b55e5541780, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &588357613
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1919,6 +2001,18 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 683801097}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &743158330 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5053354910049471331, guid: afdf8cfc72b10494cbb571927bb74d5e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307156235}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &756437518 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4191351212322650633, guid: afdf8cfc72b10494cbb571927bb74d5e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307156235}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &763206828
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2053,6 +2147,16 @@ PrefabInstance:
       value: Eveyone has that one couch that no one remembers the origins of.This
         couch may be beat up but it still supports a mean nap.
       objectReference: {fileID: 0}
+    - target: {fileID: 6641694474314141068, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
+        type: 3}
+      propertyPath: m_Text
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6641694473687870295, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
+        type: 3}
+      propertyPath: m_Text
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 6641694473075593473, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
         type: 3}
       propertyPath: m_Text
@@ -2063,16 +2167,11 @@ PrefabInstance:
       propertyPath: m_SizeDelta.x
       value: 149.7
       objectReference: {fileID: 0}
-    - target: {fileID: 6641694473687870295, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
+    - target: {fileID: 6641694474351957319, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
         type: 3}
-      propertyPath: m_Text
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 6641694474314141068, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
-        type: 3}
-      propertyPath: m_Text
-      value: 8
-      objectReference: {fileID: 0}
+      propertyPath: furnitureDisplay
+      value: 
+      objectReference: {fileID: 1288999223}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 69a8ebba758049b4fa59eb58c3bd0c4d, type: 3}
 --- !u!1001 &783835376
@@ -2195,7 +2294,7 @@ PrefabInstance:
     - target: {fileID: 6641694474166932564, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
         type: 3}
       propertyPath: m_Text
-      value: Book 3
+      value: Citrusy Books
       objectReference: {fileID: 0}
     - target: {fileID: 6641694473984261557, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
         type: 3}
@@ -2208,16 +2307,21 @@ PrefabInstance:
       propertyPath: m_Text
       value: These books are most likely riveting. Most likely...
       objectReference: {fileID: 0}
-    - target: {fileID: 6641694473687870295, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
-        type: 3}
-      propertyPath: m_Text
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 6641694474314141068, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
         type: 3}
       propertyPath: m_Text
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 6641694473687870295, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
+        type: 3}
+      propertyPath: m_Text
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6641694474351957319, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
+        type: 3}
+      propertyPath: furnitureDisplay
+      value: 
+      objectReference: {fileID: 7140117}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 69a8ebba758049b4fa59eb58c3bd0c4d, type: 3}
 --- !u!224 &839035476 stripped
@@ -2447,27 +2551,32 @@ PrefabInstance:
       value: This plant brings life and joy into any room. Make sure it getsenough
         sun.
       objectReference: {fileID: 0}
+    - target: {fileID: 6641694474314141068, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
+        type: 3}
+      propertyPath: m_Text
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6641694473687870295, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
+        type: 3}
+      propertyPath: m_Text
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6641694473075593473, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
         type: 3}
       propertyPath: m_Text
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 6641694474351957319, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
+        type: 3}
+      propertyPath: furnitureDisplay
+      value: 
+      objectReference: {fileID: 227867354}
     - target: {fileID: 6641694474351957318, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
         type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: cf1462bc694c3c249831ad8ac5293aa2,
         type: 3}
-    - target: {fileID: 6641694473687870295, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
-        type: 3}
-      propertyPath: m_Text
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6641694474314141068, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
-        type: 3}
-      propertyPath: m_Text
-      value: 2
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 69a8ebba758049b4fa59eb58c3bd0c4d, type: 3}
 --- !u!1 &981874993
@@ -2586,6 +2695,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1041172716}
   m_CullTransparentMesh: 0
+--- !u!1 &1053215460 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3642073754124036563, guid: afdf8cfc72b10494cbb571927bb74d5e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307156235}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1057902518
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2719,6 +2834,16 @@ PrefabInstance:
       propertyPath: m_Text
       value: This rack can hold many books and trinkets.
       objectReference: {fileID: 0}
+    - target: {fileID: 6641694474314141068, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
+        type: 3}
+      propertyPath: m_Text
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6641694473687870295, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
+        type: 3}
+      propertyPath: m_Text
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6641694473075593473, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
         type: 3}
       propertyPath: m_Text
@@ -2729,22 +2854,17 @@ PrefabInstance:
       propertyPath: m_SizeDelta.x
       value: 160.2
       objectReference: {fileID: 0}
+    - target: {fileID: 6641694474351957319, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
+        type: 3}
+      propertyPath: furnitureDisplay
+      value: 
+      objectReference: {fileID: 1325397755}
     - target: {fileID: 6641694474351957318, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
         type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 43a7d98bd4222b64e933596512dc09ad,
         type: 3}
-    - target: {fileID: 6641694473687870295, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
-        type: 3}
-      propertyPath: m_Text
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6641694474314141068, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
-        type: 3}
-      propertyPath: m_Text
-      value: 8
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 69a8ebba758049b4fa59eb58c3bd0c4d, type: 3}
 --- !u!1 &1118210097
@@ -2790,9 +2910,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02a9d5b042ea99648a69f44694224fcb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  logs: 10
-  rocks: 15
-  stars: 15
+  logs: 999
+  rocks: 999
+  stars: 999
 --- !u!1001 &1201919088
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2927,6 +3047,11 @@ PrefabInstance:
       value: This lamp provides ample light. It seems to remind you of a long lost
         memory.
       objectReference: {fileID: 0}
+    - target: {fileID: 6641694474351957319, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
+        type: 3}
+      propertyPath: furnitureDisplay
+      value: 
+      objectReference: {fileID: 1053215460}
     - target: {fileID: 6641694474351957318, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
         type: 3}
       propertyPath: m_Sprite
@@ -3055,7 +3180,7 @@ PrefabInstance:
     - target: {fileID: 6641694474166932564, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
         type: 3}
       propertyPath: m_Text
-      value: Painting 2
+      value: Sun Painting
       objectReference: {fileID: 0}
     - target: {fileID: 6641694473984261557, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
         type: 3}
@@ -3068,18 +3193,35 @@ PrefabInstance:
       propertyPath: m_Text
       value: A nice painting from someone special. It is very nostalgic.
       objectReference: {fileID: 0}
-    - target: {fileID: 6641694473687870295, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
-        type: 3}
-      propertyPath: m_Text
-      value: 4
-      objectReference: {fileID: 0}
     - target: {fileID: 6641694474314141068, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
         type: 3}
       propertyPath: m_Text
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 6641694473687870295, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
+        type: 3}
+      propertyPath: m_Text
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6641694474351957319, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
+        type: 3}
+      propertyPath: furnitureDisplay
+      value: 
+      objectReference: {fileID: 743158330}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 69a8ebba758049b4fa59eb58c3bd0c4d, type: 3}
+--- !u!1 &1288999223 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2539586021517377958, guid: afdf8cfc72b10494cbb571927bb74d5e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307156235}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1306050375 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3076942226513980991, guid: afdf8cfc72b10494cbb571927bb74d5e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307156235}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1307156235
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3152,8 +3294,204 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3224163602650578246, guid: afdf8cfc72b10494cbb571927bb74d5e,
+        type: 3}
+      propertyPath: m_Name
+      value: AbstractPainting
+      objectReference: {fileID: 0}
+    - target: {fileID: 3224163602650578246, guid: afdf8cfc72b10494cbb571927bb74d5e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4191351212322650633, guid: afdf8cfc72b10494cbb571927bb74d5e,
+        type: 3}
+      propertyPath: m_Name
+      value: EmptyBottle
+      objectReference: {fileID: 0}
+    - target: {fileID: 4191351212322650633, guid: afdf8cfc72b10494cbb571927bb74d5e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1495207760301185224, guid: afdf8cfc72b10494cbb571927bb74d5e,
+        type: 3}
+      propertyPath: m_Name
+      value: BlueBooks
+      objectReference: {fileID: 0}
+    - target: {fileID: 1495207760301185224, guid: afdf8cfc72b10494cbb571927bb74d5e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3076942226513980991, guid: afdf8cfc72b10494cbb571927bb74d5e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6918314234476660571, guid: afdf8cfc72b10494cbb571927bb74d5e,
+        type: 3}
+      propertyPath: m_Name
+      value: GreenBooks
+      objectReference: {fileID: 0}
+    - target: {fileID: 6918314234476660571, guid: afdf8cfc72b10494cbb571927bb74d5e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5053354910049471331, guid: afdf8cfc72b10494cbb571927bb74d5e,
+        type: 3}
+      propertyPath: m_Name
+      value: SunPainting
+      objectReference: {fileID: 0}
+    - target: {fileID: 5053354910049471331, guid: afdf8cfc72b10494cbb571927bb74d5e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5817860265972238262, guid: afdf8cfc72b10494cbb571927bb74d5e,
+        type: 3}
+      propertyPath: m_Name
+      value: Bed
+      objectReference: {fileID: 0}
+    - target: {fileID: 5817860265972238262, guid: afdf8cfc72b10494cbb571927bb74d5e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879749561573087507, guid: afdf8cfc72b10494cbb571927bb74d5e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4879749561573087507, guid: afdf8cfc72b10494cbb571927bb74d5e,
+        type: 3}
+      propertyPath: m_Name
+      value: PlushCouch
+      objectReference: {fileID: 0}
+    - target: {fileID: 3642073752487398581, guid: afdf8cfc72b10494cbb571927bb74d5e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3642073752690025961, guid: afdf8cfc72b10494cbb571927bb74d5e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3642073753099628254, guid: afdf8cfc72b10494cbb571927bb74d5e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3642073753716533075, guid: afdf8cfc72b10494cbb571927bb74d5e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3642073754045619151, guid: afdf8cfc72b10494cbb571927bb74d5e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3642073754124036563, guid: afdf8cfc72b10494cbb571927bb74d5e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8857218433247763552, guid: afdf8cfc72b10494cbb571927bb74d5e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 60649726072908287, guid: afdf8cfc72b10494cbb571927bb74d5e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3792394907959581637, guid: afdf8cfc72b10494cbb571927bb74d5e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9168024811081350426, guid: afdf8cfc72b10494cbb571927bb74d5e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2545607302468324589, guid: afdf8cfc72b10494cbb571927bb74d5e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2539586021517377958, guid: afdf8cfc72b10494cbb571927bb74d5e,
+        type: 3}
+      propertyPath: m_Name
+      value: DoubleCouch
+      objectReference: {fileID: 0}
+    - target: {fileID: 2539586021517377958, guid: afdf8cfc72b10494cbb571927bb74d5e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7111935371194007460, guid: afdf8cfc72b10494cbb571927bb74d5e,
+        type: 3}
+      propertyPath: m_Name
+      value: PurpleBottle
+      objectReference: {fileID: 0}
+    - target: {fileID: 7111935371194007460, guid: afdf8cfc72b10494cbb571927bb74d5e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4881968144333270191, guid: afdf8cfc72b10494cbb571927bb74d5e,
+        type: 3}
+      propertyPath: m_Name
+      value: YellowBooks
+      objectReference: {fileID: 0}
+    - target: {fileID: 4881968144333270191, guid: afdf8cfc72b10494cbb571927bb74d5e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: afdf8cfc72b10494cbb571927bb74d5e, type: 3}
+--- !u!1 &1307156236 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3642073754466399117, guid: afdf8cfc72b10494cbb571927bb74d5e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307156235}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1307156237 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3642073752487398581, guid: afdf8cfc72b10494cbb571927bb74d5e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307156235}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1307156238 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3642073753099628254, guid: afdf8cfc72b10494cbb571927bb74d5e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307156235}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1307156239 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4881968144333270191, guid: afdf8cfc72b10494cbb571927bb74d5e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307156235}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1312571868 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5817860265972238262, guid: afdf8cfc72b10494cbb571927bb74d5e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307156235}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1325397755 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2545607302468324589, guid: afdf8cfc72b10494cbb571927bb74d5e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307156235}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1354265380
 GameObject:
   m_ObjectHideFlags: 0
@@ -3413,11 +3751,26 @@ PrefabInstance:
       propertyPath: m_Text
       value: bright and cozy, this carpet is a welcome comfort after a hard day.
       objectReference: {fileID: 0}
+    - target: {fileID: 6641694474314141068, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
+        type: 3}
+      propertyPath: m_Text
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6641694473687870295, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
+        type: 3}
+      propertyPath: m_Text
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6641694473984261558, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
         type: 3}
       propertyPath: m_SizeDelta.x
       value: 146.9
       objectReference: {fileID: 0}
+    - target: {fileID: 6641694474351957319, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
+        type: 3}
+      propertyPath: furnitureDisplay
+      value: 
+      objectReference: {fileID: 1674798506}
     - target: {fileID: 6641694474166932566, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
         type: 3}
       propertyPath: m_Name
@@ -3429,18 +3782,20 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: cf1462bc694c3c249831ad8ac5293aa2,
         type: 3}
-    - target: {fileID: 6641694473687870295, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
-        type: 3}
-      propertyPath: m_Text
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 6641694474314141068, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
-        type: 3}
-      propertyPath: m_Text
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 69a8ebba758049b4fa59eb58c3bd0c4d, type: 3}
+--- !u!1 &1426417742 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3792394907959581637, guid: afdf8cfc72b10494cbb571927bb74d5e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307156235}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1444039642 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7111935371194007460, guid: afdf8cfc72b10494cbb571927bb74d5e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307156235}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1457662844
 GameObject:
   m_ObjectHideFlags: 0
@@ -3523,6 +3878,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1562797173 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1495207760301185224, guid: afdf8cfc72b10494cbb571927bb74d5e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307156235}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1607372577
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3656,23 +4017,34 @@ PrefabInstance:
       propertyPath: m_Text
       value: This bottlelooksgood on a rack
       objectReference: {fileID: 0}
-    - target: {fileID: 6641694473075593473, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
+    - target: {fileID: 6641694474314141068, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
         type: 3}
       propertyPath: m_Text
-      value: 3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6641694473687870295, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
         type: 3}
       propertyPath: m_Text
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 6641694474314141068, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
+    - target: {fileID: 6641694473075593473, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
         type: 3}
       propertyPath: m_Text
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 6641694474351957319, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
+        type: 3}
+      propertyPath: furnitureDisplay
+      value: 
+      objectReference: {fileID: 756437518}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 69a8ebba758049b4fa59eb58c3bd0c4d, type: 3}
+--- !u!1 &1622030446 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4879749561573087507, guid: afdf8cfc72b10494cbb571927bb74d5e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307156235}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1663454638
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3793,7 +4165,7 @@ PrefabInstance:
     - target: {fileID: 6641694474166932564, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
         type: 3}
       propertyPath: m_Text
-      value: Books 2
+      value: Blue Books
       objectReference: {fileID: 0}
     - target: {fileID: 6641694473984261557, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
         type: 3}
@@ -3807,18 +4179,29 @@ PrefabInstance:
       value: A specific set of booksfor a specific type of person. These books seems
         to work best on the shelf.
       objectReference: {fileID: 0}
-    - target: {fileID: 6641694473984261558, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
-        type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 132.2
-      objectReference: {fileID: 0}
     - target: {fileID: 6641694473687870295, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
         type: 3}
       propertyPath: m_Text
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6641694473984261558, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 132.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6641694474351957319, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
+        type: 3}
+      propertyPath: furnitureDisplay
+      value: 
+      objectReference: {fileID: 1562797173}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 69a8ebba758049b4fa59eb58c3bd0c4d, type: 3}
+--- !u!1 &1674798506 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3642073752690025961, guid: afdf8cfc72b10494cbb571927bb74d5e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307156235}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1769427171
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3952,6 +4335,16 @@ PrefabInstance:
       propertyPath: m_Text
       value: A clock which tells the time. you notice that it doesn't seem to work.
       objectReference: {fileID: 0}
+    - target: {fileID: 6641694474314141068, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
+        type: 3}
+      propertyPath: m_Text
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6641694473687870295, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
+        type: 3}
+      propertyPath: m_Text
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 6641694473075593473, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
         type: 3}
       propertyPath: m_Text
@@ -3962,16 +4355,11 @@ PrefabInstance:
       propertyPath: m_SizeDelta.x
       value: 153.1
       objectReference: {fileID: 0}
-    - target: {fileID: 6641694473687870295, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
+    - target: {fileID: 6641694474351957319, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
         type: 3}
-      propertyPath: m_Text
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6641694474314141068, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
-        type: 3}
-      propertyPath: m_Text
-      value: 2
-      objectReference: {fileID: 0}
+      propertyPath: furnitureDisplay
+      value: 
+      objectReference: {fileID: 2086021021}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 69a8ebba758049b4fa59eb58c3bd0c4d, type: 3}
 --- !u!1001 &1781251038
@@ -4107,21 +4495,26 @@ PrefabInstance:
       propertyPath: m_Text
       value: Provides a comforting flickering  light.
       objectReference: {fileID: 0}
-    - target: {fileID: 6641694473075593473, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
+    - target: {fileID: 6641694474314141068, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
         type: 3}
       propertyPath: m_Text
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6641694473687870295, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
         type: 3}
       propertyPath: m_Text
       value: 6
       objectReference: {fileID: 0}
-    - target: {fileID: 6641694474314141068, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
+    - target: {fileID: 6641694473075593473, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
         type: 3}
       propertyPath: m_Text
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6641694474351957319, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
+        type: 3}
+      propertyPath: furnitureDisplay
+      value: 
+      objectReference: {fileID: 1306050375}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 69a8ebba758049b4fa59eb58c3bd0c4d, type: 3}
 --- !u!1001 &1799108458
@@ -4244,7 +4637,7 @@ PrefabInstance:
     - target: {fileID: 6641694474166932564, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
         type: 3}
       propertyPath: m_Text
-      value: Painting 1
+      value: Abstract Painting
       objectReference: {fileID: 0}
     - target: {fileID: 6641694473984261557, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
         type: 3}
@@ -4257,16 +4650,21 @@ PrefabInstance:
       propertyPath: m_Text
       value: A simple painting to commemorate pets worldwide.
       objectReference: {fileID: 0}
-    - target: {fileID: 6641694473687870295, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
-        type: 3}
-      propertyPath: m_Text
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 6641694474314141068, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
         type: 3}
       propertyPath: m_Text
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 6641694473687870295, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
+        type: 3}
+      propertyPath: m_Text
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6641694474351957319, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
+        type: 3}
+      propertyPath: furnitureDisplay
+      value: 
+      objectReference: {fileID: 484789366}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 69a8ebba758049b4fa59eb58c3bd0c4d, type: 3}
 --- !u!1 &1810080834
@@ -4495,17 +4893,22 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 6641694474314141068, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
+        type: 3}
+      propertyPath: m_Text
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6641694474351957319, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
+        type: 3}
+      propertyPath: furnitureDisplay
+      value: 
+      objectReference: {fileID: 1426417742}
     - target: {fileID: 6641694474351957318, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
         type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: cf1462bc694c3c249831ad8ac5293aa2,
         type: 3}
-    - target: {fileID: 6641694474314141068, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
-        type: 3}
-      propertyPath: m_Text
-      value: 10
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 69a8ebba758049b4fa59eb58c3bd0c4d, type: 3}
 --- !u!1 &1879316684
@@ -4873,23 +5276,34 @@ PrefabInstance:
       propertyPath: m_Text
       value: a lovely chair to read a book in on a cool fall afternoon.
       objectReference: {fileID: 0}
-    - target: {fileID: 6641694473984261558, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
+    - target: {fileID: 6641694474314141068, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
         type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 156.9
+      propertyPath: m_Text
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6641694473687870295, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
         type: 3}
       propertyPath: m_Text
       value: 6
       objectReference: {fileID: 0}
-    - target: {fileID: 6641694474314141068, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
+    - target: {fileID: 6641694473984261558, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
         type: 3}
-      propertyPath: m_Text
-      value: 6
+      propertyPath: m_SizeDelta.x
+      value: 156.9
       objectReference: {fileID: 0}
+    - target: {fileID: 6641694474351957319, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
+        type: 3}
+      propertyPath: furnitureDisplay
+      value: 
+      objectReference: {fileID: 453478245}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 69a8ebba758049b4fa59eb58c3bd0c4d, type: 3}
+--- !u!1 &2086021021 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9168024811081350426, guid: afdf8cfc72b10494cbb571927bb74d5e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307156235}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &850869135756675665
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4897,6 +5311,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 441040975}
     m_Modifications:
+    - target: {fileID: 850869136528269314, guid: 5647d12685be9dc42b18a6cb0bef21bc,
+        type: 3}
+      propertyPath: m_Name
+      value: CraftList
+      objectReference: {fileID: 0}
+    - target: {fileID: 850869136528269314, guid: 5647d12685be9dc42b18a6cb0bef21bc,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 850869136528269317, guid: 5647d12685be9dc42b18a6cb0bef21bc,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4960,7 +5384,7 @@ PrefabInstance:
     - target: {fileID: 850869136528269317, guid: 5647d12685be9dc42b18a6cb0bef21bc,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -3002.15
+      value: -3009.2002
       objectReference: {fileID: 0}
     - target: {fileID: 850869136528269317, guid: 5647d12685be9dc42b18a6cb0bef21bc,
         type: 3}
@@ -5001,16 +5425,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 850869136528269314, guid: 5647d12685be9dc42b18a6cb0bef21bc,
-        type: 3}
-      propertyPath: m_Name
-      value: CraftList
-      objectReference: {fileID: 0}
-    - target: {fileID: 850869136528269314, guid: 5647d12685be9dc42b18a6cb0bef21bc,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6332884712517292655, guid: 5647d12685be9dc42b18a6cb0bef21bc,
         type: 3}
@@ -5132,6 +5546,31 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 43a7d98bd4222b64e933596512dc09ad,
         type: 3}
+    - target: {fileID: 6332884711507426900, guid: 5647d12685be9dc42b18a6cb0bef21bc,
+        type: 3}
+      propertyPath: furnitureDisplay
+      value: 
+      objectReference: {fileID: 1307156236}
+    - target: {fileID: 6332884711757740093, guid: 5647d12685be9dc42b18a6cb0bef21bc,
+        type: 3}
+      propertyPath: furnitureDisplay
+      value: 
+      objectReference: {fileID: 425541408}
+    - target: {fileID: 6332884711854343349, guid: 5647d12685be9dc42b18a6cb0bef21bc,
+        type: 3}
+      propertyPath: furnitureDisplay
+      value: 
+      objectReference: {fileID: 1307156237}
+    - target: {fileID: 6332884712517292650, guid: 5647d12685be9dc42b18a6cb0bef21bc,
+        type: 3}
+      propertyPath: furnitureDisplay
+      value: 
+      objectReference: {fileID: 1307156239}
+    - target: {fileID: 6332884713121887478, guid: 5647d12685be9dc42b18a6cb0bef21bc,
+        type: 3}
+      propertyPath: furnitureDisplay
+      value: 
+      objectReference: {fileID: 1307156238}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5647d12685be9dc42b18a6cb0bef21bc, type: 3}
 --- !u!1001 &2087457232169676230
