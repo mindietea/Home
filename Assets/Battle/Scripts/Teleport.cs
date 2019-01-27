@@ -10,7 +10,6 @@ public class Teleport : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-
         if (other.gameObject.tag == "Player")
         {
             /*Scene sceneToLoad = SceneManager.GetSceneByName("Home");
@@ -18,6 +17,7 @@ public class Teleport : MonoBehaviour
             SceneManager.MoveGameObjectToScene(Controller.gameObject, sceneToLoad);
             DontDestroyOnLoad(Controller.gameObject);*/
             SceneManager.LoadScene(PlayerPrefs.GetInt("Home"));
+            
         }
     }
 }
