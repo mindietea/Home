@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2098403999308859071}
   - component: {fileID: 9057599017492279109}
   - component: {fileID: 6218701335356031522}
-  - component: {fileID: 9151480130368678355}
+  - component: {fileID: 4815562719792292497}
   m_Layer: 0
   m_Name: LogDrop
   m_TagString: Untagged
@@ -97,7 +97,7 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.62579304
---- !u!114 &9151480130368678355
+--- !u!114 &4815562719792292497
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -106,6 +106,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 7663764740195319356}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8543bfc0557f8c14fbfc630a512139de, type: 3}
+  m_Script: {fileID: 11500000, guid: 6584c7ad008412e4ea9cbb24ef6c3734, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

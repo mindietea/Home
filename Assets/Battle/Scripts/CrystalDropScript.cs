@@ -10,6 +10,11 @@ public class CrystalDropScript : MonoBehaviour
         {
             // Resource pickup
             other.gameObject.GetComponent<PlayerExploreScript>().AddStars(1);
+
+            AudioSource audio = GameObject.Find("Audio").GetComponent<AudioSource>();
+            AudioScript script = GameObject.Find("Audio").GetComponent<AudioScript>();
+            audio.PlayOneShot(script.starPickup, 1.0f);
+
             // Destroy
             Destroy(gameObject);
         }
