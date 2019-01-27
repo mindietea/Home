@@ -6,6 +6,7 @@ TagManager:
   tags:
   - PlayerStats
   - PlayerAttack
+  - Room
   layers:
   - Default
   - TransparentFX

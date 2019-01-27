@@ -7,6 +7,7 @@ public class ExploreButtonScript : MonoBehaviour
 {
     public void LoadExploreScene()
     {
+        GameObject.FindWithTag("Room").SetActive(false);
         SceneManager.LoadScene("Explore");
     }
 }
