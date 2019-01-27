@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - PlayerStats
+  - PlayerAttack
   layers:
   - Default
   - TransparentFX
@@ -45,14 +46,17 @@ TagManager:
   - name: Background
     uniqueID: 3380786151
     locked: 0
-  - name: Player
-    uniqueID: 1061521577
-    locked: 0
   - name: Monsters_Back
     uniqueID: 1831103287
     locked: 0
   - name: Monsters
     uniqueID: 553994451
+    locked: 0
+  - name: Player
+    uniqueID: 1061521577
+    locked: 0
+  - name: PlayerAttack
+    uniqueID: 3278262753
     locked: 0
   - name: Furniture_Back
     uniqueID: 2373875129

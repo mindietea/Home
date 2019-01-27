@@ -28,7 +28,6 @@ public class PlayerExploreScript : MonoBehaviour
     public int Damage(int dmg)
     {
         health = Mathf.Max(0, health - dmg);
-        Debug.Log("Health is now " + health);
         return health;
     }
 
