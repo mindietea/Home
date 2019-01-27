@@ -31,6 +31,11 @@ public class TreeScript : MonoBehaviour
                 shot.GetComponent<TreeProjectileScript>().direction = GameObject.FindWithTag("Player").transform.position - transform.position;
                 shot.GetComponent<TreeProjectileScript>().maxDistance = maxRange;
                 shotsFired++;
+
+
+                AudioSource source = GameObject.Find("Audio").GetComponent<AudioSource>();
+                AudioScript script = GameObject.Find("Audio").GetComponent<AudioScript>();
+                source.PlayOneShot(script.treeShoot, 1.0f);
             }
             // Short shots
             else if(InShortRange())
@@ -41,6 +46,10 @@ public class TreeScript : MonoBehaviour
                 shot.GetComponent<TreeProjectileScript>().direction = GameObject.FindWithTag("Player").transform.position - transform.position;
                 shot.GetComponent<TreeProjectileScript>().maxDistance = shortRange;
                 shotsFired++;
+
+                AudioSource source = GameObject.Find("Audio").GetComponent<AudioSource>();
+                AudioScript script = GameObject.Find("Audio").GetComponent<AudioScript>();
+                source.PlayOneShot(script.treeShoot, 1.0f);
             }
 
         } else

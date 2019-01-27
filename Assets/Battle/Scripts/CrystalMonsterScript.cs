@@ -35,6 +35,10 @@ public class CrystalMonsterScript : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D other)
     {
+
+        AudioSource source = GameObject.Find("Audio").GetComponent<AudioSource>();
+        AudioScript script = GameObject.Find("Audio").GetComponent<AudioScript>();
+        source.PlayOneShot(script.crystalShoot, 1.0f);
         GameObject.FindWithTag("Player").GetComponent<PlayerExploreScript>().Damage(damage);
     }
 

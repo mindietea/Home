@@ -16,6 +16,10 @@ public class AudioScript : MonoBehaviour
     public AudioClip rockPickup;
     public AudioClip starPickup;
 
+    public AudioClip treeShoot;
+    public AudioClip rockShoot;
+    public AudioClip crystalShoot;
+
     // Start is called before the first frame update
     void Start()
     {
