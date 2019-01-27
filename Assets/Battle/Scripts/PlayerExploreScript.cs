@@ -15,6 +15,8 @@ public class PlayerExploreScript : MonoBehaviour
 
     public GameObject playerStatsPrefab;
     public GameObject playerStats;
+
+    public GameObject died;
     
     public void Start()
     {
@@ -47,6 +49,12 @@ public class PlayerExploreScript : MonoBehaviour
     public int Damage(int dmg)
     {
         health = Mathf.Max(0, health - dmg);
+
+        if(health <= 0)
+        {
+            died.SetActive(true);
+        }
+
         return health;
     }
 
