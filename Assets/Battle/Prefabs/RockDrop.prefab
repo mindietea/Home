@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2767388862123651948}
   - component: {fileID: 1630648767749293232}
   - component: {fileID: 1669065409}
+  - component: {fileID: 5616419427935582928}
   m_Layer: 0
   m_Name: RockDrop
   m_TagString: Untagged
@@ -28,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 2634326069960397099}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -1.62, y: -3.13, z: 0}
-  m_LocalScale: {x: 0.31781998, y: 0.31781998, z: 0.31781998}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 0.31781998}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -70,7 +71,7 @@ SpriteRenderer:
   m_SortingLayerID: 553994451
   m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: ed1f16ee91283d043925bde7b1f11434, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ef3a456f62d271b49a46f9dce41b476b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -109,3 +110,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8328415fca07c849ad2a5f7b19ba159, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &5616419427935582928
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2634326069960397099}
+  m_Enabled: 0
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c41e3e8ca41c86143ac3d8cf73614371, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

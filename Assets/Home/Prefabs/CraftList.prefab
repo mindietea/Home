@@ -43,7 +43,6 @@ RectTransform:
   - {fileID: 6332884711262966461}
   - {fileID: 6332884712499905471}
   - {fileID: 6332884712329954503}
-  - {fileID: 6332884712276365362}
   - {fileID: 6332884711358451696}
   - {fileID: 6332884713057372996}
   - {fileID: 6332884712562556899}
@@ -147,7 +146,7 @@ PrefabInstance:
     - target: {fileID: 6641694474351957314, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
         type: 3}
       propertyPath: m_RootOrder
-      value: 16
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 6641694474351957314, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
         type: 3}
@@ -230,16 +229,6 @@ PrefabInstance:
       propertyPath: m_Text
       value: This is a fancier couch for you, a fancier person!
       objectReference: {fileID: 0}
-    - target: {fileID: 6641694474314141068, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
-        type: 3}
-      propertyPath: m_Text
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 6641694473687870295, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
-        type: 3}
-      propertyPath: m_Text
-      value: 10
-      objectReference: {fileID: 0}
     - target: {fileID: 6641694473075593473, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
         type: 3}
       propertyPath: m_Text
@@ -249,6 +238,16 @@ PrefabInstance:
         type: 3}
       propertyPath: furnitureDisplay
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6641694473687870295, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
+        type: 3}
+      propertyPath: m_Text
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6641694474314141068, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
+        type: 3}
+      propertyPath: m_Text
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 69a8ebba758049b4fa59eb58c3bd0c4d, type: 3}
@@ -543,17 +542,23 @@ PrefabInstance:
       propertyPath: m_Text
       value: It provides much needed light for one to study or plan a future adventure.
       objectReference: {fileID: 0}
+    - target: {fileID: 6641694473075593473, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
+        type: 3}
+      propertyPath: m_Text
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6641694472710978380, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 9674552d360f79b40abd90f2e8ab7ae3,
+        type: 3}
     - target: {fileID: 6641694472959045279, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
         type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 073a88e9a7b3b114e84d350d84733fb7,
         type: 3}
-    - target: {fileID: 6641694474314141068, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
-        type: 3}
-      propertyPath: m_Text
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 6641694473503395332, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
         type: 3}
       propertyPath: m_Sprite
@@ -565,16 +570,10 @@ PrefabInstance:
       propertyPath: m_Text
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 6641694472710978380, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
-        type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 9674552d360f79b40abd90f2e8ab7ae3,
-        type: 3}
-    - target: {fileID: 6641694473075593473, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
+    - target: {fileID: 6641694474314141068, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
         type: 3}
       propertyPath: m_Text
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 69a8ebba758049b4fa59eb58c3bd0c4d, type: 3}
@@ -634,7 +633,7 @@ PrefabInstance:
     - target: {fileID: 6641694474351957314, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
         type: 3}
       propertyPath: m_RootOrder
-      value: 17
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 6641694474351957314, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
         type: 3}
@@ -717,20 +716,20 @@ PrefabInstance:
       propertyPath: m_Text
       value: These books are most likely riveting. Most likely...
       objectReference: {fileID: 0}
-    - target: {fileID: 6641694474314141068, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
+    - target: {fileID: 6641694474351957319, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
         type: 3}
-      propertyPath: m_Text
-      value: 6
+      propertyPath: furnitureDisplay
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 6641694473687870295, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
         type: 3}
       propertyPath: m_Text
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 6641694474351957319, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
+    - target: {fileID: 6641694474314141068, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
         type: 3}
-      propertyPath: furnitureDisplay
-      value: 
+      propertyPath: m_Text
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 69a8ebba758049b4fa59eb58c3bd0c4d, type: 3}
@@ -874,30 +873,30 @@ PrefabInstance:
       value: Eveyone has that one couch that no one remembers the origins of.This
         couch may be beat up but it still supports a mean nap.
       objectReference: {fileID: 0}
-    - target: {fileID: 6641694474314141068, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
-        type: 3}
-      propertyPath: m_Text
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 6641694473687870295, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
-        type: 3}
-      propertyPath: m_Text
-      value: 8
-      objectReference: {fileID: 0}
     - target: {fileID: 6641694473075593473, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
         type: 3}
       propertyPath: m_Text
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6641694474351957319, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
+        type: 3}
+      propertyPath: furnitureDisplay
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 6641694473984261558, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
         type: 3}
       propertyPath: m_SizeDelta.x
       value: 149.7
       objectReference: {fileID: 0}
-    - target: {fileID: 6641694474351957319, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
+    - target: {fileID: 6641694473687870295, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
         type: 3}
-      propertyPath: furnitureDisplay
-      value: 
+      propertyPath: m_Text
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6641694474314141068, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
+        type: 3}
+      propertyPath: m_Text
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 69a8ebba758049b4fa59eb58c3bd0c4d, type: 3}
@@ -1207,16 +1206,6 @@ PrefabInstance:
       propertyPath: m_Text
       value: A good nights sleep is just as important as anything else.
       objectReference: {fileID: 0}
-    - target: {fileID: 6641694474314141068, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
-        type: 3}
-      propertyPath: m_Text
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 6641694473687870295, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
-        type: 3}
-      propertyPath: m_Text
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 6641694473075593473, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
         type: 3}
       propertyPath: m_Text
@@ -1226,6 +1215,16 @@ PrefabInstance:
         type: 3}
       propertyPath: furnitureDisplay
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6641694473687870295, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
+        type: 3}
+      propertyPath: m_Text
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6641694474314141068, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
+        type: 3}
+      propertyPath: m_Text
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 69a8ebba758049b4fa59eb58c3bd0c4d, type: 3}
@@ -1285,7 +1284,7 @@ PrefabInstance:
     - target: {fileID: 6641694474351957314, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
         type: 3}
       propertyPath: m_RootOrder
-      value: 18
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 6641694474351957314, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
         type: 3}
@@ -1369,11 +1368,6 @@ PrefabInstance:
       value: This bottle contains an amazing potion which can heal all wounds. Oh,
         it seemsto be expired...
       objectReference: {fileID: 0}
-    - target: {fileID: 6641694474314141068, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
-        type: 3}
-      propertyPath: m_Text
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 6641694473075593473, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
         type: 3}
       propertyPath: m_Text
@@ -1383,6 +1377,11 @@ PrefabInstance:
         type: 3}
       propertyPath: furnitureDisplay
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6641694474314141068, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
+        type: 3}
+      propertyPath: m_Text
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 69a8ebba758049b4fa59eb58c3bd0c4d, type: 3}
@@ -1525,30 +1524,20 @@ PrefabInstance:
       propertyPath: m_Text
       value: This rack can hold many books and trinkets.
       objectReference: {fileID: 0}
-    - target: {fileID: 6641694474314141068, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
-        type: 3}
-      propertyPath: m_Text
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 6641694473687870295, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
-        type: 3}
-      propertyPath: m_Text
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 6641694473075593473, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
         type: 3}
       propertyPath: m_Text
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 6641694473984261558, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
-        type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 160.2
-      objectReference: {fileID: 0}
     - target: {fileID: 6641694474351957319, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
         type: 3}
       propertyPath: furnitureDisplay
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6641694473984261558, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 160.2
       objectReference: {fileID: 0}
     - target: {fileID: 6641694474351957318, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
         type: 3}
@@ -1556,6 +1545,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 43a7d98bd4222b64e933596512dc09ad,
         type: 3}
+    - target: {fileID: 6641694473687870295, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
+        type: 3}
+      propertyPath: m_Text
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6641694474314141068, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
+        type: 3}
+      propertyPath: m_Text
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 69a8ebba758049b4fa59eb58c3bd0c4d, type: 3}
 --- !u!224 &6332884712809091237 stripped
@@ -1698,16 +1697,6 @@ PrefabInstance:
       value: This plant brings life and joy into any room. Make sure it getsenough
         sun.
       objectReference: {fileID: 0}
-    - target: {fileID: 6641694474314141068, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
-        type: 3}
-      propertyPath: m_Text
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6641694473687870295, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
-        type: 3}
-      propertyPath: m_Text
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 6641694473075593473, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
         type: 3}
       propertyPath: m_Text
@@ -1724,6 +1713,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: cf1462bc694c3c249831ad8ac5293aa2,
         type: 3}
+    - target: {fileID: 6641694473687870295, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
+        type: 3}
+      propertyPath: m_Text
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6641694474314141068, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
+        type: 3}
+      propertyPath: m_Text
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 69a8ebba758049b4fa59eb58c3bd0c4d, type: 3}
 --- !u!224 &6332884712639298978 stripped
@@ -1782,7 +1781,7 @@ PrefabInstance:
     - target: {fileID: 6641694474351957314, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
         type: 3}
       propertyPath: m_RootOrder
-      value: 22
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 6641694474351957314, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
         type: 3}
@@ -1865,20 +1864,20 @@ PrefabInstance:
       propertyPath: m_Text
       value: A nice painting from someone special. It is very nostalgic.
       objectReference: {fileID: 0}
-    - target: {fileID: 6641694474314141068, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
+    - target: {fileID: 6641694474351957319, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
         type: 3}
-      propertyPath: m_Text
-      value: 4
+      propertyPath: furnitureDisplay
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 6641694473687870295, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
         type: 3}
       propertyPath: m_Text
       value: 4
       objectReference: {fileID: 0}
-    - target: {fileID: 6641694474351957319, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
+    - target: {fileID: 6641694474314141068, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
         type: 3}
-      propertyPath: furnitureDisplay
-      value: 
+      propertyPath: m_Text
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 69a8ebba758049b4fa59eb58c3bd0c4d, type: 3}
@@ -2174,17 +2173,28 @@ PrefabInstance:
       propertyPath: m_Text
       value: A mysterious weapon earned by mighty deeds.
       objectReference: {fileID: 0}
+    - target: {fileID: 6641694473075593473, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
+        type: 3}
+      propertyPath: m_Text
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 6641694473984261558, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 143.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6641694472710978380, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 9674552d360f79b40abd90f2e8ab7ae3,
+        type: 3}
     - target: {fileID: 6641694472959045279, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
         type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 073a88e9a7b3b114e84d350d84733fb7,
         type: 3}
-    - target: {fileID: 6641694474314141068, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
-        type: 3}
-      propertyPath: m_Text
-      value: 20
-      objectReference: {fileID: 0}
     - target: {fileID: 6641694473503395332, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
         type: 3}
       propertyPath: m_Sprite
@@ -2196,21 +2206,10 @@ PrefabInstance:
       propertyPath: m_Text
       value: 20
       objectReference: {fileID: 0}
-    - target: {fileID: 6641694472710978380, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
-        type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 9674552d360f79b40abd90f2e8ab7ae3,
-        type: 3}
-    - target: {fileID: 6641694473075593473, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
+    - target: {fileID: 6641694474314141068, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
         type: 3}
       propertyPath: m_Text
       value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 6641694473984261558, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
-        type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 143.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 69a8ebba758049b4fa59eb58c3bd0c4d, type: 3}
@@ -2219,167 +2218,6 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6641694474351957314, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
     type: 3}
   m_PrefabInstance: {fileID: 850869136911815154}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &850869136993043824
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 850869136528269317}
-    m_Modifications:
-    - target: {fileID: 6641694474351957315, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
-        type: 3}
-      propertyPath: m_Name
-      value: Bottle
-      objectReference: {fileID: 0}
-    - target: {fileID: 6641694474351957314, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6641694474351957314, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6641694474351957314, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6641694474351957314, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6641694474351957314, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6641694474351957314, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6641694474351957314, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6641694474351957314, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 14
-      objectReference: {fileID: 0}
-    - target: {fileID: 6641694474351957314, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6641694474351957314, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6641694474351957314, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6641694474351957314, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6641694474351957314, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -680.9995
-      objectReference: {fileID: 0}
-    - target: {fileID: 6641694474351957314, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
-        type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 407.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 6641694474351957314, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
-        type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 269.7
-      objectReference: {fileID: 0}
-    - target: {fileID: 6641694474351957314, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
-        type: 3}
-      propertyPath: m_AnchorMin.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 6641694474351957314, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
-        type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 6641694474351957314, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
-        type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 6641694474351957314, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
-        type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 6641694474351957314, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
-        type: 3}
-      propertyPath: m_Pivot.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 6641694474351957314, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
-        type: 3}
-      propertyPath: m_Pivot.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 6641694474166932564, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
-        type: 3}
-      propertyPath: m_Text
-      value: Bottle
-      objectReference: {fileID: 0}
-    - target: {fileID: 6641694473984261557, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
-        type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 9b650b515ec67154dae37ef975f2170b,
-        type: 3}
-    - target: {fileID: 6641694472940636314, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
-        type: 3}
-      propertyPath: m_Text
-      value: This bottlelooksgood on a rack
-      objectReference: {fileID: 0}
-    - target: {fileID: 6641694474314141068, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
-        type: 3}
-      propertyPath: m_Text
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6641694473687870295, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
-        type: 3}
-      propertyPath: m_Text
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6641694473075593473, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
-        type: 3}
-      propertyPath: m_Text
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 6641694474351957319, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
-        type: 3}
-      propertyPath: furnitureDisplay
-      value: 
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 69a8ebba758049b4fa59eb58c3bd0c4d, type: 3}
---- !u!224 &6332884712276365362 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 6641694474351957314, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
-    type: 3}
-  m_PrefabInstance: {fileID: 850869136993043824}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &850869137166536453
 PrefabInstance:
@@ -2514,25 +2352,15 @@ PrefabInstance:
       propertyPath: m_Text
       value: bright and cozy, this carpet is a welcome comfort after a hard day.
       objectReference: {fileID: 0}
-    - target: {fileID: 6641694474314141068, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
+    - target: {fileID: 6641694474351957319, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
         type: 3}
-      propertyPath: m_Text
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6641694473687870295, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
-        type: 3}
-      propertyPath: m_Text
-      value: 5
+      propertyPath: furnitureDisplay
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 6641694473984261558, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
         type: 3}
       propertyPath: m_SizeDelta.x
       value: 146.9
-      objectReference: {fileID: 0}
-    - target: {fileID: 6641694474351957319, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
-        type: 3}
-      propertyPath: furnitureDisplay
-      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 6641694474166932566, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
         type: 3}
@@ -2545,6 +2373,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: cf1462bc694c3c249831ad8ac5293aa2,
         type: 3}
+    - target: {fileID: 6641694473687870295, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
+        type: 3}
+      propertyPath: m_Text
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6641694474314141068, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
+        type: 3}
+      propertyPath: m_Text
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 69a8ebba758049b4fa59eb58c3bd0c4d, type: 3}
 --- !u!224 &6332884712118016583 stripped
@@ -2603,7 +2441,7 @@ PrefabInstance:
     - target: {fileID: 6641694474351957314, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
         type: 3}
       propertyPath: m_RootOrder
-      value: 19
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 6641694474351957314, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
         type: 3}
@@ -2686,20 +2524,20 @@ PrefabInstance:
       propertyPath: m_Text
       value: A simple painting to commemorate pets worldwide.
       objectReference: {fileID: 0}
-    - target: {fileID: 6641694474314141068, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
+    - target: {fileID: 6641694474351957319, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
         type: 3}
-      propertyPath: m_Text
-      value: 4
+      propertyPath: furnitureDisplay
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 6641694473687870295, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
         type: 3}
       propertyPath: m_Text
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 6641694474351957319, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
+    - target: {fileID: 6641694474314141068, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
         type: 3}
-      propertyPath: furnitureDisplay
-      value: 
+      propertyPath: m_Text
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 69a8ebba758049b4fa59eb58c3bd0c4d, type: 3}
@@ -2759,7 +2597,7 @@ PrefabInstance:
     - target: {fileID: 6641694474351957314, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
         type: 3}
       propertyPath: m_RootOrder
-      value: 20
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 6641694474351957314, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
         type: 3}
@@ -2842,16 +2680,6 @@ PrefabInstance:
       propertyPath: m_Text
       value: Provides a comforting flickering  light.
       objectReference: {fileID: 0}
-    - target: {fileID: 6641694474314141068, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
-        type: 3}
-      propertyPath: m_Text
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6641694473687870295, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
-        type: 3}
-      propertyPath: m_Text
-      value: 6
-      objectReference: {fileID: 0}
     - target: {fileID: 6641694473075593473, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
         type: 3}
       propertyPath: m_Text
@@ -2861,6 +2689,16 @@ PrefabInstance:
         type: 3}
       propertyPath: furnitureDisplay
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6641694473687870295, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
+        type: 3}
+      propertyPath: m_Text
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6641694474314141068, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
+        type: 3}
+      propertyPath: m_Text
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 69a8ebba758049b4fa59eb58c3bd0c4d, type: 3}
@@ -2920,7 +2758,7 @@ PrefabInstance:
     - target: {fileID: 6641694474351957314, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
         type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 6641694474351957314, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
         type: 3}
@@ -3003,30 +2841,30 @@ PrefabInstance:
       propertyPath: m_Text
       value: A clock which tells the time. you notice that it doesn't seem to work.
       objectReference: {fileID: 0}
-    - target: {fileID: 6641694474314141068, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
-        type: 3}
-      propertyPath: m_Text
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6641694473687870295, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
-        type: 3}
-      propertyPath: m_Text
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 6641694473075593473, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
         type: 3}
       propertyPath: m_Text
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6641694474351957319, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
+        type: 3}
+      propertyPath: furnitureDisplay
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 6641694473984261558, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
         type: 3}
       propertyPath: m_SizeDelta.x
       value: 153.1
       objectReference: {fileID: 0}
-    - target: {fileID: 6641694474351957319, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
+    - target: {fileID: 6641694473687870295, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
         type: 3}
-      propertyPath: furnitureDisplay
-      value: 
+      propertyPath: m_Text
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6641694474314141068, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
+        type: 3}
+      propertyPath: m_Text
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 69a8ebba758049b4fa59eb58c3bd0c4d, type: 3}
@@ -3153,11 +2991,6 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 6641694474314141068, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
-        type: 3}
-      propertyPath: m_Text
-      value: 10
-      objectReference: {fileID: 0}
     - target: {fileID: 6641694474351957319, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
         type: 3}
       propertyPath: furnitureDisplay
@@ -3169,6 +3002,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: cf1462bc694c3c249831ad8ac5293aa2,
         type: 3}
+    - target: {fileID: 6641694474314141068, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
+        type: 3}
+      propertyPath: m_Text
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 69a8ebba758049b4fa59eb58c3bd0c4d, type: 3}
 --- !u!224 &6332884711431876474 stripped
@@ -3311,20 +3149,20 @@ PrefabInstance:
       value: A specific set of booksfor a specific type of person. These books seems
         to work best on the shelf.
       objectReference: {fileID: 0}
-    - target: {fileID: 6641694473687870295, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
+    - target: {fileID: 6641694474351957319, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
         type: 3}
-      propertyPath: m_Text
-      value: 0
+      propertyPath: furnitureDisplay
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 6641694473984261558, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
         type: 3}
       propertyPath: m_SizeDelta.x
       value: 132.2
       objectReference: {fileID: 0}
-    - target: {fileID: 6641694474351957319, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
+    - target: {fileID: 6641694473687870295, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
         type: 3}
-      propertyPath: furnitureDisplay
-      value: 
+      propertyPath: m_Text
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 69a8ebba758049b4fa59eb58c3bd0c4d, type: 3}
@@ -3467,16 +3305,6 @@ PrefabInstance:
       propertyPath: m_Text
       value: A good desk to spend time with.
       objectReference: {fileID: 0}
-    - target: {fileID: 6641694474314141068, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
-        type: 3}
-      propertyPath: m_Text
-      value: 25
-      objectReference: {fileID: 0}
-    - target: {fileID: 6641694473687870295, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
-        type: 3}
-      propertyPath: m_Text
-      value: 15
-      objectReference: {fileID: 0}
     - target: {fileID: 6641694473984261558, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
         type: 3}
       propertyPath: m_SizeDelta.x
@@ -3488,6 +3316,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: cf1462bc694c3c249831ad8ac5293aa2,
         type: 3}
+    - target: {fileID: 6641694473687870295, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
+        type: 3}
+      propertyPath: m_Text
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6641694474314141068, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
+        type: 3}
+      propertyPath: m_Text
+      value: 25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 69a8ebba758049b4fa59eb58c3bd0c4d, type: 3}
 --- !u!224 &6332884711757740088 stripped
@@ -3629,16 +3467,6 @@ PrefabInstance:
       propertyPath: m_Text
       value: '"If I fits, I sits!" In fact, this chair is quite large for our heroine.'
       objectReference: {fileID: 0}
-    - target: {fileID: 6641694474314141068, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
-        type: 3}
-      propertyPath: m_Text
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6641694473687870295, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
-        type: 3}
-      propertyPath: m_Text
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 6641694473075593473, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
         type: 3}
       propertyPath: m_Text
@@ -3648,6 +3476,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6641694473687870295, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
+        type: 3}
+      propertyPath: m_Text
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6641694474314141068, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
+        type: 3}
+      propertyPath: m_Text
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 69a8ebba758049b4fa59eb58c3bd0c4d, type: 3}
@@ -3707,7 +3545,7 @@ PrefabInstance:
     - target: {fileID: 6641694474351957314, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
         type: 3}
       propertyPath: m_RootOrder
-      value: 21
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6641694474351957314, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
         type: 3}
@@ -3790,25 +3628,25 @@ PrefabInstance:
       propertyPath: m_Text
       value: a lovely chair to read a book in on a cool fall afternoon.
       objectReference: {fileID: 0}
-    - target: {fileID: 6641694474314141068, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
+    - target: {fileID: 6641694474351957319, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
         type: 3}
-      propertyPath: m_Text
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 6641694473687870295, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
-        type: 3}
-      propertyPath: m_Text
-      value: 6
+      propertyPath: furnitureDisplay
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 6641694473984261558, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
         type: 3}
       propertyPath: m_SizeDelta.x
       value: 156.9
       objectReference: {fileID: 0}
-    - target: {fileID: 6641694474351957319, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
+    - target: {fileID: 6641694473687870295, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
         type: 3}
-      propertyPath: furnitureDisplay
-      value: 
+      propertyPath: m_Text
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6641694474314141068, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
+        type: 3}
+      propertyPath: m_Text
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 69a8ebba758049b4fa59eb58c3bd0c4d, type: 3}

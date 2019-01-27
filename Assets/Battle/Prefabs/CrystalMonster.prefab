@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 5701630401841717939}
   - component: {fileID: 5701630401841717936}
   - component: {fileID: 5701630401841717937}
+  - component: {fileID: 5558676673819028298}
   m_Layer: 0
   m_Name: CrystalMonster
   m_TagString: Untagged
@@ -145,3 +146,18 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.67468673
+--- !u!111 &5558676673819028298
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5701630401841717902}
+  m_Enabled: 0
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 163e1fd515c06ae4c8b320aee543b0eb, type: 2}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0

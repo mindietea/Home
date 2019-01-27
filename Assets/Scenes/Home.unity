@@ -596,6 +596,30 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1307156235}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1307156250 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4612072083734631635, guid: afdf8cfc72b10494cbb571927bb74d5e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307156235}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1307156251 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8688161408269717060, guid: afdf8cfc72b10494cbb571927bb74d5e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307156235}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1307156252 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3505564786475794461, guid: afdf8cfc72b10494cbb571927bb74d5e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307156235}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1307156253 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9206900627452433349, guid: afdf8cfc72b10494cbb571927bb74d5e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1307156235}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1333929889
 GameObject:
   m_ObjectHideFlags: 0
@@ -764,6 +788,11 @@ PrefabInstance:
       propertyPath: m_Text
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6641694474351957319, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
+        type: 3}
+      propertyPath: furnitureDisplay
+      value: 
+      objectReference: {fileID: 1307156251}
     - target: {fileID: 6641694473984261558, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
         type: 3}
       propertyPath: m_SizeDelta.x
@@ -996,6 +1025,11 @@ PrefabInstance:
       propertyPath: m_Text
       value: bright and cozy, this carpet is a welcome comfort after a hard day.
       objectReference: {fileID: 0}
+    - target: {fileID: 6641694474351957319, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
+        type: 3}
+      propertyPath: furnitureDisplay
+      value: 
+      objectReference: {fileID: 1307156250}
     - target: {fileID: 6641694474314141068, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
         type: 3}
       propertyPath: m_Text
@@ -1136,6 +1170,11 @@ PrefabInstance:
       propertyPath: m_Text
       value: These books are most likely riveting. Most likely...
       objectReference: {fileID: 0}
+    - target: {fileID: 6641694474351957319, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
+        type: 3}
+      propertyPath: furnitureDisplay
+      value: 
+      objectReference: {fileID: 1307156252}
     - target: {fileID: 6641694473687870295, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
         type: 3}
       propertyPath: m_Text
@@ -1287,6 +1326,11 @@ PrefabInstance:
       propertyPath: m_Text
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 6641694474351957319, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
+        type: 3}
+      propertyPath: furnitureDisplay
+      value: 
+      objectReference: {fileID: 1307156253}
     - target: {fileID: 6641694473687870295, guid: 69a8ebba758049b4fa59eb58c3bd0c4d,
         type: 3}
       propertyPath: m_Text
