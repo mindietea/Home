@@ -9,6 +9,7 @@ public class CrystalMonsterScript : MonoBehaviour
     public float longRange = 6.0f;
     public float lowSpeed = 0.04f;
     public float highSpeed = 0.08f;
+    public int damage = 5;
 
     // Start is called before the first frame update
     void Start()
@@ -30,6 +31,11 @@ public class CrystalMonsterScript : MonoBehaviour
         {
             transform.Translate(dir * lowSpeed);
         }
+    }
+
+    void OnCollisionEnter2D(Collision2D other)
+    {
+        GameObject.FindWithTag("Player").GetComponent<PlayerExploreScript>().Damage(damage);
     }
 
     private bool InLongRange()
