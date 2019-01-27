@@ -180,11 +180,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree
       objectReference: {fileID: 0}
-    - target: {fileID: 8139713949094169697, guid: 5004bb8eec88ab64ea1d8b0bfc0ed449,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5004bb8eec88ab64ea1d8b0bfc0ed449, type: 3}
 --- !u!4 &1330812066429193664 stripped
