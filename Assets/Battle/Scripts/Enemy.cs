@@ -30,6 +30,10 @@ public class Enemy : MonoBehaviour
 
         if (health <= 0)
         {
+            if(gameObject.GetComponent<DropOnDeathScript>() != null)
+            {
+                gameObject.GetComponent<DropOnDeathScript>().Drop();
+            }
             GameObject.Destroy(gameObject);
         }
         transform.Translate(Vector2.left * speed * Time.deltaTime);
