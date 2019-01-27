@@ -13,9 +13,6 @@ public class Enemy : MonoBehaviour
 
     private void Start()
     {
-        lastHit = 1000.0f;
-        anim = GetComponent<Animator>();
-        anim.SetBool("isRunning", true);
 
     }
     

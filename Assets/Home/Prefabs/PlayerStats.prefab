@@ -43,6 +43,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02a9d5b042ea99648a69f44694224fcb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  logs: 999
-  rocks: 999
-  stars: 999
+  room: {fileID: 0}
+  logs: 10
+  rocks: 10
+  stars: 10
