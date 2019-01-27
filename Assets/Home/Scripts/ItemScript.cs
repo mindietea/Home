@@ -15,14 +15,17 @@ public class ItemScript : MonoBehaviour
     {
         if(furnitureDisplay == null)
         {
-            Debug.LogWarning("WARNING: Your ItemScript doesn't have a furnitureDisplay attached!");
+            Debug.LogWarning("WARNING: Your ItemScript doesn't have a furnitureDisplay attached! GO name: " + gameObject.name);
         }
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(!bought && CanAfford() && !furnitureDisplay.active)
+        if(furnitureDisplay == null)
+        {
+
+        } else if(!bought && CanAfford() && !furnitureDisplay.active)
         {
             gameObject.GetComponent<CanvasGroup>().alpha = 1.0f;
         } else
