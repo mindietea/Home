@@ -4,40 +4,40 @@ using UnityEngine;
 
 public class PlayerAttack : MonoBehaviour
 {
-    private float timeBtwAttack;
-    public float startTimeBtwAttack;
+    public float attackCooldown = 0.5f;
+    public float lastAttack = 1000.0f;
 
-    public Transform attackPos;
-    public LayerMask whatIsEnemies;
+    public GameObject attack;
     
-    public float attackRange;
-    public int damage;
+
+    public float attackDistance = 2.0f;
+
+    void Start()
+    {
+        attack.SetActive(false);
+        lastAttack = 1000.0f;
+    }
 
     void Update()
     {
-        if (timeBtwAttack <= 0)
+        lastAttack += Time.deltaTime;
+        
+        if (Input.GetMouseButtonDown(0) && (lastAttack >= attackCooldown))
         {
-            if (Input.GetKey(KeyCode.Space))
-            {
-               
-                Collider2D[] enemiesToDamage = Physics2D.OverlapCircleAll(attackPos.position, attackRange);
-           
-                for (int i = 0; i < enemiesToDamage.Length; i++)
-                {
-                    enemiesToDamage[i].GetComponent<Enemy>().TakeDamage(damage);
-                 }
-            }
-            timeBtwAttack = startTimeBtwAttack;
-        }
-        else
-        {
-            timeBtwAttack -= Time.deltaTime;
+            lastAttack = 0.0f;
+            Vector3 mouseVec = new Vector3(GetCursorVector(transform.position).x, GetCursorVector(transform.position).y, 0);
+            attack.transform.position = transform.position + mouseVec * attackDistance;
+            attack.SetActive(true);
         }
         
     }
-    private void OnDrawGizmosSelected()
+
+    public static Vector2 GetCursorVector(Vector2 pos)
     {
-        Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(attackPos.position, attackRange);
+        Vector3 worldCursor = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        Vector2 cursor = new Vector2(worldCursor.x, worldCursor.y);
+        Vector2 vector = (cursor - pos).normalized;
+
+        return vector;
     }
 }

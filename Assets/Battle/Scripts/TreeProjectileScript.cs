@@ -52,7 +52,6 @@ public class TreeProjectileScript : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log("Colliding");
         if(other.gameObject.tag == "Player")
         {
             // Hit behavior
