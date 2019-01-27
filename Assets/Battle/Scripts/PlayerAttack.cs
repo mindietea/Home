@@ -28,6 +28,9 @@ public class PlayerAttack : MonoBehaviour
             Vector3 mouseVec = new Vector3(GetCursorVector(transform.position).x, GetCursorVector(transform.position).y, 0);
             attack.transform.position = transform.position + mouseVec * attackDistance;
             attack.SetActive(true);
+            AudioSource source = GameObject.Find("Audio").GetComponent<AudioSource>();
+            AudioScript script = GameObject.Find("Audio").GetComponent<AudioScript>();
+            source.PlayOneShot(script.playerAttack, 1.0f);
         }
         
     }

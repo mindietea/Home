@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerStats : MonoBehaviour
 {
+    public GameObject room;
 
     public int logs, rocks, stars;
 

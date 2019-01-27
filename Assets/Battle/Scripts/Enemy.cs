@@ -13,9 +13,6 @@ public class Enemy : MonoBehaviour
 
     private void Start()
     {
-        lastHit = 1000.0f;
-        anim = GetComponent<Animator>();
-        anim.SetBool("isRunning", true);
 
     }
     
@@ -44,6 +41,10 @@ public class Enemy : MonoBehaviour
     {
         health = Mathf.Max(0, health - damage);
         Debug.Log("damage Taken");
+        
+        AudioSource audio = GameObject.Find("Audio").GetComponent<AudioSource>();
+        AudioScript script = GameObject.Find("Audio").GetComponent<AudioScript>();
+        audio.PlayOneShot(script.rockHurt, 1.0f);
     }
 
     void OnTriggerEnter2D(Collider2D other)

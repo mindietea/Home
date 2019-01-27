@@ -10,6 +10,11 @@ public class RockDropScript : MonoBehaviour
         {
             // Resource pickup
             other.gameObject.GetComponent<PlayerExploreScript>().AddRocks(1);
+
+            AudioSource audio = GameObject.Find("Audio").GetComponent<AudioSource>();
+            AudioScript script = GameObject.Find("Audio").GetComponent<AudioScript>();
+            audio.PlayOneShot(script.rockPickup, 1.0f);
+
             // Destroy
             Destroy(gameObject);
         }

@@ -7,6 +7,11 @@ public class ExploreButtonScript : MonoBehaviour
 {
     public void LoadExploreScene()
     {
+        GameObject playerStats = GameObject.FindWithTag("PlayerStats");
+        if(playerStats != null)
+        {
+            playerStats.GetComponent<PlayerStats>().room.SetActive(false);
+        }
         SceneManager.LoadScene("Explore");
     }
 }
