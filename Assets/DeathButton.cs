@@ -19,6 +19,11 @@ public class DeathButton : MonoBehaviour
     public void Return()
     {
         Debug.Log("return");
+        GameObject playerStats = GameObject.FindWithTag("PlayerStats");
+        if (playerStats != null)
+        {
+            playerStats.GetComponent<PlayerStats>().room.SetActive(true);
+        }
         SceneManager.LoadScene(PlayerPrefs.GetInt("Home"));
 
     }
